@@ -16,6 +16,7 @@ import Cuatro from './components/Cuatro';
 import Reviews from './components/Reviews';
 import Ready from './components/Ready';
 import Footer from './components/Footer';
+import Atension from './components/Atension';
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       </Head>
       <NavBar />
     <section className='Body'>
+      <Atension />
       <First />
       <Second />
       <Mechanical />
